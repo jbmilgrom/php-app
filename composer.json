@@ -1,0 +1,21 @@
+{
+    "name": "jbm/my-app",
+    "description": "basic php 7 app for learning purposes",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jonathan Milgrom",
+            "email": "jbmilgrom@gmail.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "2.x@dev",
+        "zendframework/zend-diactoros": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\": "src/"
+        }
+    }
+}
